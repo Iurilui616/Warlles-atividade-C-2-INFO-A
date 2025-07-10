@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int num1, num2;
+    int soma, subtracao, multiplicacao, divisao, resto, quociente;
+
+    printf("Digite o primeiro numero inteiro: ");
+    scanf("%d", &num1);
+
+    printf("Digite o segundo numero inteiro: ");
+    scanf("%d", &num2);
+
+    soma = num1 + num2;
+    subtracao = num1 - num2;
+    multiplicacao = num1 * num2;
+
+    if (num2 != 0) {
+        divisao = num1 / num2;
+        resto = num1 % num2;
+        quociente = num1 / num2;
+
+        printf("Soma: %d\n", soma);
+        printf("Subtracao: %d\n", subtracao);
+        printf("Multiplicacao: %d\n", multiplicacao);
+        printf("Divisao: %d\n", divisao);
+        printf("Resto: %d\n", resto);
+        printf("Quociente: %d\n", quociente);
+}        else
+        printf("Nao e possivel dividir por zero.\n");
+        printf("Soma: %d\n", soma);
+        printf("Subtracao: %d\n", subtracao);
+        printf("Multiplicacao: %d\n", multiplicacao);
+    }
