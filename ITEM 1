@@ -1,0 +1,33 @@
+#include <studio.h>
+#include <stdlib.h>
+
+printf ("**********"); /n
+printf ("*        *");
+printf ("*        *");
+printf ("*        *");
+printf ("*        *");
+printf ("*        *");
+printf ("**********");
+
+printf ("***");
+printf("*    *");
+printf("*      *");
+printf("*      *");
+printf("*    *");
+printf ("***");
+
+printf ("*");
+printf ("***");
+printf ("*****");
+printf ("*******");
+printf ("*******");
+printf   ("*");
+printf   ("*");
+
+printf("*");
+printf("* *");
+printf("*  *");
+printf("*   *");
+printf("*  *");
+printf("* *");
+printf ("*");
