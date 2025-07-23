@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
-    int raio;
-    int altura;
-    int volume;
+    float raio;
+    float altura;
+    float volume;
 
     printf("Raio da base da lata (em cm): ");
-    scanf("%d", &raio);
+    scanf("%f", &raio);
 
     printf("Altura da lata (em cm): ");
-    scanf("%d", &altura);
+    scanf("%f", &altura);
 
     volume = 3.14 * raio * raio * altura;
 
-    printf("O volume da lata e: %d cm³\n", volume);
+    printf("O volume da lata e: %.2f cm³\n", volume);
 
     return 0;
 }
