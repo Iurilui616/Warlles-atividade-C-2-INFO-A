@@ -4,12 +4,12 @@ int main() {
     int celsius;
     int fahrenheit;
 
-    printf("Digite a temperatura em graus Celsius: ");
+    printf("Quantos graus Celsius: ");
     scanf("%d", &celsius);
 
-    fahrenheit = (9 * celsius + 160) / 5;
+    fahrenheit = (celsius * 9) / 5 +32.;
 
-    printf("A temperatura em Fahrenheit e: %d\n", fahrenheit);
+    printf("Temperatura em Fahrenheit e: %d\n", fahrenheit);
 
     return 0;
 }
